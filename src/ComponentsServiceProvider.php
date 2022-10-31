@@ -17,7 +17,6 @@ class ComponentsServiceProvider extends ServiceProvider
         $this->callAfterResolving(BladeCompiler::class, function (BladeCompiler $bladeCompiler): void {
             $prefix = config('components.prefix', '');
 
-            /** @var BladeComponent $component */
             foreach (config('components.list', []) as $alias => $component) {
                 $bladeCompiler->component($component, $alias, $prefix);
             }

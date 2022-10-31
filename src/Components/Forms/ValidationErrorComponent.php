@@ -15,6 +15,7 @@ use Illuminate\View\View;
  * for the components we use in the reiziger platform. All copyrights of the components go to them.
  *
  * @copyright Blade-ui-kit
+ *
  * @see https://github.com/blade-ui-kit/blade-ui-kit/blob/0.x/src/Components/Forms/Error.php
  */
 class ValidationErrorComponent extends Component
@@ -22,7 +23,8 @@ class ValidationErrorComponent extends Component
     public function __construct(
         public readonly string $field,
         public readonly string $bag = 'default',
-    ) {}
+    ) {
+    }
 
     public function render(): View
     {

@@ -2,9 +2,9 @@
 
 namespace Jah\Components;
 
+use Jah\Components\Commands\ComponentsCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Jah\Components\Commands\ComponentsCommand;
 
 class ComponentsServiceProvider extends PackageServiceProvider
 {

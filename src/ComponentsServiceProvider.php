@@ -4,7 +4,6 @@ namespace Jah\Components;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\View\Compilers\BladeCompiler;
-use Jah\Components\Commands\ComponentsCommand;
 
 class ComponentsServiceProvider extends ServiceProvider
 {

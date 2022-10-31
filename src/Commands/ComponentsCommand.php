@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Jah\Components\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class ComponentsCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'components';
 
     public $description = 'My command';
 
